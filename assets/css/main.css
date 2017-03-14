@@ -2723,14 +2723,14 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #ecaa96;
+				background-color: #bc61ae;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
 			input[type="button"].special:active,
 			.button.special:active {
-				background-color: #e4886a;
+				background-color: #bc6190;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
