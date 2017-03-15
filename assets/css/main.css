@@ -3804,7 +3804,7 @@
 	width: 200px;
 	background-color: #666;
 	color: #fff;
-	padding: 5px 0;
+	padding: 5px 5px;
 	border-radius: 6px;
 	position: absolute;
 	z-index: 1;
@@ -3815,6 +3815,10 @@
 
 .tooltip:hover .tiptext {
 	visibility: visible;
+}
+
+.tooltip:hover {
+	cursor: pointer;
 }
 
 .tooltip .tiptext::after {
