@@ -3801,7 +3801,7 @@
 
 .tooltip .tiptext {
 	visibility: hidden;
-	width: 200px;
+	width: 5em;
 	background-color: #666;
 	color: #fff;
 	padding: 5px 5px;
@@ -3818,7 +3818,7 @@
 }
 
 .tooltip:hover {
-	cursor: pointer;
+	cursor: help;
 }
 
 .tooltip .tiptext::after {
