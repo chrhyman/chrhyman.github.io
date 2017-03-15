@@ -3818,6 +3818,11 @@
 	visibility: visible;
 }
 
+.tooltip .tiptext a {
+	color: #bbb;
+	border-color: #bbb;
+}
+
 .tooltip:hover {
 	cursor: help;
 }
