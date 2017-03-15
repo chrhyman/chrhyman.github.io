@@ -3809,7 +3809,7 @@
 	position: absolute;
 	z-index: 1;
 	bottom: 100%;
-	left: -145px;
+	left: -45px;
 	margin-left: -10px;
 }
 
@@ -3838,7 +3838,7 @@
 	content: " ";
 	position: absolute;
 	top: 100%;
-	left: 185px;
+	left: 85px;
 	margin-left: -5px;
 	border-width: 5px;
 	border-style: solid;
