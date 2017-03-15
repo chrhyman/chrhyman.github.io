@@ -2361,6 +2361,31 @@
 				color: #ffffff;
 			}
 
+			.icon.major.accent-tw {
+				background: #00aced;
+				color: #ffffff;
+			}
+
+			.icon.major.accent-fb {
+				background: #3b5998;
+				color: #ffffff;
+			}
+
+			.icon.major.accent-ig {
+				background: #bc2a8d;
+				color: #ffffff;
+			}
+
+			.icon.major.accent-git {
+				background: #000000;
+				color: #ffffff;
+			}
+
+			.icon.major.accent-em {
+				background: #fadb6c;
+				color: #ffffff;
+			}
+
 /* Image */
 
 	.image {
