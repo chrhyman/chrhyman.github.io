@@ -3812,7 +3812,7 @@
 	margin-left: -10px;
 }
 
-.tooptip:hover .tiptext {
+.tooltip:hover .tiptext {
 	visibility: visible;
 }
 
