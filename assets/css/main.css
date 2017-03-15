@@ -1820,8 +1820,7 @@
 
 		a.social:hover{
 			position: relative;
-			top: 10px;
-			border-top-color: #ff0000;
+			bottom: 5px;
 		}
 
 	strong, b {
