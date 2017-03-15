@@ -3827,6 +3827,10 @@
 	border-bottom-color: transparent;
 }
 
+.tooltip .tiptext b, .tooltip .tiptext strong {
+	color: #dedede;
+}
+
 .tooltip:hover {
 	cursor: help;
 }
