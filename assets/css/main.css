@@ -1821,6 +1821,7 @@
 		a.social:hover{
 			position: relative;
 			bottom: 5px;
+			cursor: pointer;
 		}
 
 	strong, b {
