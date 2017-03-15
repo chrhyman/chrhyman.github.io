@@ -3820,7 +3820,11 @@
 
 .tooltip .tiptext a {
 	color: #bbb;
-	border-color: #bbb;
+	border-bottom-color: #bbb;
+}
+
+.tooltip .tiptext a:hover {
+	border-bottom-color: transparent;
 }
 
 .tooltip:hover {
