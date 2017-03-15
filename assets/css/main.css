@@ -3801,10 +3801,11 @@
 
 .tooltip .tiptext {
 	visibility: hidden;
-	width: 15em;
+	width: 25em;
 	background-color: #666;
+	opacity: 0.85;
 	color: #fff;
-	padding: 5px 5px;
+	padding: 5px 10px;
 	border-radius: 6px;
 	position: absolute;
 	z-index: 1;
