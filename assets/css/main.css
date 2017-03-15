@@ -3802,8 +3802,7 @@
 .tooltip .tiptext {
 	visibility: hidden;
 	width: 25em;
-	background-color: #666;
-	opacity: 0.85;
+	background: rgba(66, 66, 66, 0.85);
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 6px;
