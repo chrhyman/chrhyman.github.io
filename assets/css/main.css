@@ -1818,6 +1818,12 @@
 			border-bottom-color: transparent;
 		}
 
+		a.social:hover{
+			position: relative;
+			top: 10px;
+			border-top-color: #ff0000;
+		}
+
 	strong, b {
 		color: #646464;
 		font-weight: 400;
@@ -2372,7 +2378,7 @@
 			}
 
 			.icon.major.accent-ig {
-				background: #cd486b;
+				background: #e95950;
 				color: #ffffff;
 			}
 
