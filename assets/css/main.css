@@ -3180,6 +3180,11 @@
 			text-align: center;
 		}
 
+		#cta .copyright {
+			color: #fff;
+			font-size: 2em;
+		}
+
 		.copyright a {
 				color: inherit;
 			}
