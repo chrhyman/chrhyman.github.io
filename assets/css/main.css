@@ -3171,7 +3171,7 @@
 				opacity: 0.75;
 			}
 
-		#footer .copyright {
+		.copyright {
 			color: #999;
 			font-size: 0.9em;
 			line-height: 1em;
@@ -3180,11 +3180,11 @@
 			text-align: center;
 		}
 
-			#footer .copyright a {
+		.copyright a {
 				color: inherit;
 			}
 
-			#footer .copyright li {
+		.copyright li {
 				border-left: solid 1px #dddddd;
 				display: inline-block;
 				list-style: none;
@@ -3192,7 +3192,7 @@
 				padding-left: 1em;
 			}
 
-				#footer .copyright li:first-child {
+		.copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding-left: 0;
