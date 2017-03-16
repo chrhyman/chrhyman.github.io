@@ -3802,7 +3802,7 @@
 .tooltip .tiptext {
 	visibility: hidden;
 	width: 15em;
-	background: rgba(66, 66, 66, 0.85);
+	background: rgba(66, 66, 66, 0.75);
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 6px;
