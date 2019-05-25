@@ -1,3 +1,3 @@
-# chrhyman.github.io
+# wugs.me
 
-testing
+i just got this for the email address tbh
