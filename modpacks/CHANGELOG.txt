@@ -37,6 +37,7 @@ Provides `servers.dat` containing MWC connection already in Multiplayer list.
 
 Provides `options.txt` which give a couple defaults:
 * GUI Scale is 2x instead of Auto
+* Brightness is 30%
 * Music is 0%
 * Subtitles ("captions" or "audio cues") are enabled
 * Narrator is disabled
