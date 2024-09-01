@@ -1,0 +1,43 @@
+MuWuCraft Modpack Changelog
+===========================
+
++------------------------------------------------+
+|  Version 1.0 -- Initial modpack configuration  |
++------------------------------------------------+
+
+Provides these mods for MC 1.21 Fabric 0.16.2:
+* Armor Poser
+* BetterF3
+* Camera Utils
+* Chat Signing Hider
+* Cloth Config API
+* Content Creator Server Status ("Status Mod")
+* Fabric API (required)
+* Fadeless
+* Freecam
+* Lithium
+* Mod Menu
+* Reese's Sodium Options
+* Server Resourcepack Checker
+* Simple Voice Chat
+* Sodium
+* Sodium Extra
+* Text Placeholder API
+
+Provides config for:
+* Status mod
+  - disable reminder to set status
+
+
++------------------------------------------+
+|  Version 1.1 -- Improve default options  |
++------------------------------------------+
+
+Provides `servers.dat` containing MWC connection already in Multiplayer list.
+
+Provides `options.txt` which give a couple defaults:
+* GUI Scale is 2x instead of Auto
+* Music is 0%
+* Subtitles ("captions" or "audio cues") are enabled
+* Narrator is disabled
+* Tutorial toast notifications are disabled
