@@ -42,3 +42,26 @@ Provides `options.txt` which give a couple defaults:
 * Subtitles ("captions" or "audio cues") are enabled
 * Narrator is disabled
 * Tutorial toast notifications are disabled
+
+
++-------------------------------------+
+|  Version 1.2 -- Add resource packs  |
++-------------------------------------+
+
+Provides over two dozen separate Vanilla Tweaks resource packs. A few are enabled by default:
+* Ping colors in tab menu
+* Pumpkin overlay is translucent
+* Fixes cloud rendering in view distance fog
+* An in-game brewing guide
+* Food gives a hunger preview
+* Fire is lower
+* Stars twinkle
+* Wither hearts are more visible
+* Sticky Pistons have their stickiness visible from the side
+
+Many more are provided and can be enabled in-game from the Options > Resource Packs menu.
+
+Adds these mods:
+* Dark Loading Screen
+* Hey Wiki
+* Architectury API (for Hey Wiki)
