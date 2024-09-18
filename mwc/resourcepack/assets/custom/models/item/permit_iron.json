@@ -1,0 +1,7 @@
+{
+  "parent": "custom:item/permit_diamond",
+  "texture_size": [64, 64],
+  "textures": {
+    "10": "custom:item/permit_iron"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "custom:item/trophy_gold"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "custom:item/trophy_iron"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "custom:item/trophy_copper"
+    },
+    {
+      "predicate": { "custom_model_data": 10 },
+      "model": "custom:item/crown_royal"
+    },
+    {
+      "predicate": { "custom_model_data": 11 },
+      "model": "custom:item/crown_basic"
+    },
+    {
+      "predicate": { "custom_model_data": 12 },
+      "model": "custom:item/crown_mini"
+    },
+    {
+      "predicate": { "custom_model_data": 20 },
+      "model": "custom:item/ears_jellie"
+    },
+    {
+      "predicate": { "custom_model_data": 21 },
+      "model": "custom:item/ears_yoda"
+    }
+  ]
+}
