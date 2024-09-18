@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "C C",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:custom_model_data": 777,
+      "minecraft:custom_name": "{\"text\":\"Diamond Coin\",\"italic\":false,\"color\":\"aqua\"}"
+    },
+    "count": 8
+  },
+  "show_notification": false
+}
