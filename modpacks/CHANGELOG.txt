@@ -48,7 +48,8 @@ Provides `options.txt` which give a couple defaults:
 |  Version 1.2 -- Add resource packs  |
 +-------------------------------------+
 
-Provides over two dozen separate Vanilla Tweaks resource packs. A few are enabled by default:
+Provides over two dozen separate Vanilla Tweaks resource packs.
+A few are enabled by default:
 * Ping colors in tab menu
 * Pumpkin overlay is translucent
 * Fixes cloud rendering in view distance fog
@@ -59,9 +60,50 @@ Provides over two dozen separate Vanilla Tweaks resource packs. A few are enable
 * Wither hearts are more visible
 * Sticky Pistons have their stickiness visible from the side
 
-Many more are provided and can be enabled in-game from the Options > Resource Packs menu.
+Many more are provided and can be enabled in-game
+from the Options > Resource Packs menu.
 
 Adds these mods:
 * Dark Loading Screen
 * Hey Wiki
 * Architectury API (for Hey Wiki)
+
+
++----------------------------------+
+|  Version 1.3 -- Bring in Bobby!  |
++----------------------------------+
+
+Brings in Bobby, a mod that caches chunks on your client so you can
+experience a very large render distance, over the server (or client!) cap.
+
+Updates mods to latest MC 1.21.1-Fabric 0.16.2 compatible versions.
+
+Provides the Fresh Animations resource pack + mods required for it to work.
+
+Includes shaders and a particular build of Iris for Fabric that includes a
+fix for Spectator mode/Freecam. Iris is required for the shaders to work.
+The standard Iris version will also work, but the free cam won't render
+underground properly.
+
+Has FerriteCore, a memory performance optimization mod that works on the
+client and server environments.
+
+Adds these mods:
+* Bobby
+* Entity Texture Features [ETF] (for Fresh Animations)
+* Entity Model Features [EMF] (for Fresh Animations)
+* FerriteCore
+* Iris Shaders (build.5425)
+* Litematica (disabled by default)
+* MaLiLib (for Litematica)
+* More Overlays Updated
+* Server Resourcepack Checker
+* Shulker Box Tooltip
+* Shulker+
+
+Adds these resource packs:
+* Fresh Animations
+
+Adds these shaders:
+* Complementary Shaders - Reimagined
+* Complementary Shaders - Unbound
