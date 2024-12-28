@@ -107,3 +107,10 @@ Adds these resource packs:
 Adds these shaders:
 * Complementary Shaders - Reimagined
 * Complementary Shaders - Unbound
+
++----------------------------------+
+|  Version 2.0 -- Pale Gardens!    |
++----------------------------------+
+
+Updates server and client mods to 1.21.4 Fabric 0.16.9. Removes Shulkers+.
+
