@@ -6,14 +6,14 @@
     " C "
   ],
   "key": {
-    "C": {
-      "item": "minecraft:diamond"
-    }
+    "C": ["minecraft:diamond"]
   },
   "result": {
     "id": "minecraft:clock",
     "components": {
-      "minecraft:custom_model_data": 777,
+      "minecraft:custom_model_data": {
+        "floats": [777]
+      },
       "minecraft:custom_name": "{\"text\":\"Diamond Coin\",\"italic\":false,\"color\":\"aqua\"}"
     },
     "count": 8

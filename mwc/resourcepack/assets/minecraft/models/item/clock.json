@@ -82,7 +82,11 @@
       "model": "custom:item/coin_gold"
     },
     {
-      "predicate": { "custom_model_data": 777 },
+      "predicate": {
+        "custom_model_data": {
+          "floats": [777.0]
+        }
+      },
       "model": "custom:item/coin_diamond"
     },
     {

@@ -1,0 +1,32 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/permit_diamond"
+                }
+            }, {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/permit_gold"
+                }
+            }, {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/permit_iron"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        }
+    }
+}
