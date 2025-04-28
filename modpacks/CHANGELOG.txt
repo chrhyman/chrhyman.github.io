@@ -114,3 +114,17 @@ Adds these shaders:
 
 Updates server and client mods to 1.21.4 Fabric 0.16.9. Removes Shulkers+.
 
+
+
++----------------------------------+
+|  Version 2.1 -- Spring Drop!     |
++----------------------------------+
+
+Updates server and client mods to 1.21.5 Fabric 0.16.14.
+
+Adds Mouse Tweaks.
+Adds MaLiLib Port (previously a manual add via Modrinth), Litematica Port, and MiniHUD Port
+
+Resource packs are no longer included. Please see instructions at wugs.me/mwc for how to port these over yourself. Also includes steps for copying over settings.
+
+ETF and EMF are still included for Fresh Animations, even though it isn't included.
