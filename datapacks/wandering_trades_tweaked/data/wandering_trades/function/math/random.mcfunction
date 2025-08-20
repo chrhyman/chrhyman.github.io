@@ -3,8 +3,8 @@ scoreboard players operation @s math_input2 -= @s math_input1
 scoreboard players add @s math_input2 1
 
 #Summon two entities to work with
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"math_random_kcjbc\"}",Duration:10,Radius:0.0f,WaitTime:0,Particle:"underwater"}
-summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"math_random_kcjbc\"}",Duration:10,Radius:0.0f,WaitTime:0,Particle:"underwater"}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"math_random_kcjbc\"}",Duration:10,Radius:0.0f,WaitTime:0}
+summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"{\"text\":\"math_random_kcjbc\"}",Duration:10,Radius:0.0f,WaitTime:0}
 
 #Generate a 31-bit random number by randomizing each bit
 scoreboard players add @e[type=area_effect_cloud,name="math_random_kcjbc",distance=..1,sort=random,limit=1] math_input1 1

@@ -14,7 +14,7 @@
       "minecraft:custom_model_data": {
         "floats": [777]
       },
-      "minecraft:custom_name": "{\"text\":\"Diamond Coin\",\"italic\":false,\"color\":\"aqua\"}"
+      "minecraft:custom_name": {"text":"Diamond Coin", "italic":false, "color":"aqua"}
     },
     "count": 8
   },
