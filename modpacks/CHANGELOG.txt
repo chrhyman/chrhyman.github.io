@@ -128,3 +128,11 @@ Adds MaLiLib Port (previously a manual add via Modrinth), Litematica Port, and M
 Resource packs are no longer included. Please see instructions at wugs.me/mwc for how to port these over yourself. Also includes steps for copying over settings.
 
 ETF and EMF are still included for Fresh Animations, even though it isn't included.
+
++----------------------------------+
+|  Version 2.2 -- Happy Ghasts     |
++----------------------------------+
+
+Updates server annd client mods to 1.21.7 Fabric 0.16.14.
+
+Fresh Animations is included again.
