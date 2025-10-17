@@ -3,4 +3,4 @@
 function mw2:sacrifice_game/setup
 
 gamerule spawnRadius 0
-setworldspawn 515 63 -2150
+setworldspawn 520 63 -2150

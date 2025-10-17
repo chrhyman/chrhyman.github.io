@@ -3,15 +3,14 @@ data modify block ~ ~ ~ Items set value []
 
 # players stand on a special block above the hidden chest
 # only credit that player, and only increase the global total if someone got credit
-execute positioned 472 112 -2111 as @p[distance=..25,sort=nearest,limit=1] run function mw2:sacrifice_game/credit_player
+execute positioned 475 112 -2111 as @p[distance=..25,sort=nearest,limit=1] run function mw2:sacrifice_game/credit_player
 
-
-playsound ambient.cave
+execute as @a run playsound ambient.cave ui @s
 title @a subtitle {text:"The border has expanded"}
 title @a title {text:"The ancients are pleased"}
 title @a clear
 
-playsound ambient.cave
+execute as @a run playsound ambient.cave ui @s
 title @a subtitle {text:"The world border dissipates"}
 title @a title {text:"The ancients are satisfied"}
 title @a clear
