@@ -6,8 +6,8 @@ summon marker 471 111 -2111 {Tags:["sacrifice_game"]}
 
 # set the world border once (centered on 3x3 pit)
 worldborder center 471 -2111
-# this will immediately get incremented by 1 by the daily growth's first cycle
-worldborder set 499
+# this will get incremented by 1 each day after the first diamond is sacrificed
+worldborder set 500
 
 # mark this setup as done so it isn't repeated on each reload of this datapack
 scoreboard players set .global gameSetupDone 1
