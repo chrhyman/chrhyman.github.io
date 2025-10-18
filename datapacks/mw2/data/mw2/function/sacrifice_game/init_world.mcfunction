@@ -1,6 +1,9 @@
 # global sum of diamonds sacrificed is stored in the `.global` fake player
 scoreboard objectives add diamondsSacrificed dummy "Diamonds Sacrificed"
+
+# initilize to starting stage for world border progress
 scoreboard objectives add borderStage dummy "World Border Stage"
+scoreboard players set .global borderStage 0
 
 # entity flag for if "diamond sacrifice" game is active (kill when game is over)
 summon marker 471 111 -2111 {Tags:["sacrifice_game"]}

@@ -1,6 +1,9 @@
 # play a noise
 function mw2:sacrifice_game/sound/alert_all_players
 
+# increment the stage
+scoreboard players add .global borderStage 1
+
 # add 250 blocks to the world border
 worldborder add 250 2
 

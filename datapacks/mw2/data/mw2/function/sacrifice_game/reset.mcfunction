@@ -1,6 +1,7 @@
 # remove counters and flags
 scoreboard objectives remove diamondsSacrificed
 scoreboard objectives remove gameSetupDone
+scoreboard objectives remove borderStage
 
 # remove the marker if it still exists
 kill @e[type=marker,tag=sacrifice_game]
