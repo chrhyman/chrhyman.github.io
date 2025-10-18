@@ -7,4 +7,4 @@ scoreboard players add .global diamondsSacrificed 1
 scoreboard players add @s diamondsSacrificed 1
 
 # notify them
-title @s actionbar {text: "",extra:[{text: "You've sacrificed ", color:aqua},{score:{name:"@s",objective:"diamondsSacrificed"}},{text:" diamonds! (",color:aqua},{score:{name:".global",objective:"diamondsSacrificed"},color:"blue"},{text:" total)",color:aqua}]}
+title @s actionbar {text: "",extra:[{text: "You've sacrificed "},{score:{name:"@s",objective:"diamondsSacrificed"},color:"#2CBAA8"},{text:" diamonds! ("},{score:{name:".global",objective:"diamondsSacrificed"},color:"#BA572D"},{text:" total)"}]}
