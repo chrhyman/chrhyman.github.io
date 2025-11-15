@@ -1,0 +1,13 @@
+# expand_world_border increments borderStage
+execute if score .global borderStage matches 0 run execute if score .global diamondsSacrificed matches 100.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 1 run execute if score .global diamondsSacrificed matches 200.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 2 run execute if score .global diamondsSacrificed matches 300.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 3 run execute if score .global diamondsSacrificed matches 400.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 4 run execute if score .global diamondsSacrificed matches 500.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 5 run execute if score .global diamondsSacrificed matches 600.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 6 run execute if score .global diamondsSacrificed matches 700.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 7 run execute if score .global diamondsSacrificed matches 800.. run function mw2:sacrifice_game/border/expand_world_border
+execute if score .global borderStage matches 8 run execute if score .global diamondsSacrificed matches 900.. run function mw2:sacrifice_game/border/expand_world_border
+
+# final stage
+execute if score .global borderStage matches 9 run execute if score .global diamondsSacrificed matches 1000.. run function mw2:sacrifice_game/end/finish_game

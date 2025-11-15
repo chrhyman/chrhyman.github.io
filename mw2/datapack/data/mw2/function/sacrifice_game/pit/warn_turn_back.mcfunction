@@ -10,4 +10,4 @@ tag @s add was_warned
 
 tellraw @s "Retreat until the particles disappear, or I'll kill you."
 
-schedule function mw2:sacrifice_game/util/clear_warning_tag 30s
+schedule function mw2:sacrifice_game/util/clear_tag/was_warned 30s

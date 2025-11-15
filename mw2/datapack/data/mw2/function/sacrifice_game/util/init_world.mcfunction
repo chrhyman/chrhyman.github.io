@@ -1,4 +1,5 @@
 # global sum of diamonds sacrificed is stored in the `.global` fake player
+# each real player also has a score, which is their personal contribution
 scoreboard objectives add diamondsSacrificed dummy "Diamonds Sacrificed"
 
 # initilize to starting stage for world border progress
@@ -11,6 +12,7 @@ summon marker 471 111 -2111 {Tags:["sacrifice_game"]}
 # set the world border once (centered on 3x3 pit)
 worldborder center 471 -2111
 # this will get incremented by 1 each day after the first diamond is sacrificed
+# the border gets incremented by 250 when each border stage is achieved
 worldborder set 500
 
 # set the diamonds sacrificed score in the tab view (sidebar would show the global total)

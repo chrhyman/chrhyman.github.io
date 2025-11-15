@@ -1,6 +1,8 @@
 # setup flag for single-run init
 scoreboard objectives add gameSetupDone dummy
 
+# anything in the below function should only happen once, the first time the datapack runs in the world
+# repeated runs (say, when the datapack is reloaded) would cause problems
 execute unless score .global gameSetupDone matches 1 run function mw2:sacrifice_game/util/init_world
 
 # if the game is still running (including after reloading the pack),

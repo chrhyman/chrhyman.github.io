@@ -1,6 +1,11 @@
-# this should be callable by the last diamond sacrifice OR me during testing
-# so if the explosion should happen, check if a marker entity exists and ONLY blow up if it does
-execute if entity @e[type=marker,tag=do_explosion] run function mw2:sacrifice_game/end/explode
+# the real version is dangerous!
+function mw2:sacrifice_game/end/explode
+
+# splashy lightning effects
+function mw2:sacrifice_game/end/lightning/lightning_strike_sequence
+
+# remove some blocks and flowing water (before TNT explodes)
+function mw2:sacrifice_game/end/cleanup
 
 # set the world border to max/default, but make it take time so the weird vignette effect appears
 worldborder set 59999968 10

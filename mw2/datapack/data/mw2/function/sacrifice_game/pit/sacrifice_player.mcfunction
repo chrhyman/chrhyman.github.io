@@ -14,4 +14,4 @@ kill @s
 # leave the team so they display normal death messages again
 team leave @s
 
-schedule function mw2:sacrifice_game/util/clear_sacrifice_tag 3s
+schedule function mw2:sacrifice_game/util/clear_tag/was_sacrificed 3s
