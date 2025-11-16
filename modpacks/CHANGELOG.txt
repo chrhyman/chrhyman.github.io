@@ -136,3 +136,71 @@ ETF and EMF are still included for Fresh Animations, even though it isn't includ
 Updates server annd client mods to 1.21.7 Fabric 0.16.14.
 
 Fresh Animations is included again.
+
+=============================================
+END OF SEASON ONE
+
+BEGINNING OF SEASON TWO
+=============================================
+
++-----------------------------+
+|  Update 1 -- Server start!  |
++-----------------------------+
+
+MuWuCraft Season Two (MW2) begins on November 16, 2025. We are running Minecraft version 1.21.10 (using Fabric 0.17.3). The server is always compatible with a vanilla client.
+
+Modpack file: MW2-1.0.0.zip
+
+Import this .zip into CurseForge as a Minecraft profile to run a modded Fabric client. CurseForge allows you to add, remove, temporarily disable, update, and otherwise maintain these mods in between updates.
+
+Note that some mods come disabled in this pack by default. Feel free to enable any of them. You can also add more (client-side) mods if you wish.
+
+Utilities:
+- ArmorPoser-fabric-1.21.10-12.2.0.jar			GUI to pose armor stands
+- audioplayer-fabric-2.0.8+1.21.10.jar			Commands to upload audio files and associate them with discs, horns, etc.
+- BetterF3-16.0.3-Fabric-1.21.10.jar.disabled		Highly-configurable F3 screen
+- camerautils-fabric-1.21.10-1.1.2.jar.disabled		Cinematic camera modes
+- freecam-fabric-1.3.5+mc1.21.10.jar.disabled		Spectator view in survival mode
+- heywiki-fabric-1.8.4+1.21.10.jar.disabled		Easily query minecraft.wiki
+- litematica-fabric-1.21.10-0.24.3.jar.disabled		Create, copy, and manipulate block schematics (very powerful for complex builds)
+- minihud-fabric-1.21.10-0.37.2.jar.disabled		Highly editable HUD with tons of useful information (light levels, coords, etc.)
+- MouseTweaks-fabric-mc1.21.9-2.29.jar			Adds some convenient shortcuts like scroll wheel moving items between containers
+- moremousetweaks-fabric-1.1.1+1.21.9.jar		Adds a couple more of these shorts for emptying/filling containers quickly
+- peek-fabric-1.21.10-1.4.8.jar.disabled		Client-side rendering on placed Shulkers to indicate their contents
+- shulkerboxtooltip-fabric-5.2.12+1.21.9.jar		Hold shift while hovering in inventory to see contents of a Shulker
+- status-fabric-1.21.10-1.1.0.jar			Request that players not sleep. Set an availability status that players see in the tab view
+- worldedit-mod-7.3.17.jar.disabled			Incredibly powerful mod for editing Minecraft worlds. Can copy from survival and paste into a creative world.
+
+Visuals:
+- continuity-3.0.1-beta.2+1.21.10.jar.disabled		Seamless glass
+- dark-loading-screen-1.6.17.jar			Minecraft loading screen isn't bright red, but dark gray
+- iris-fabric-1.9.6+mc1.21.9.jar			Adds shaders to Sodium rendering=
+
+Behind-the-Scenes Quality of Life:
+- chatsigninghider-fabric-1.21.10-1.0.5.jar 		Hides an annoying message about security in chat messages
+- resourcepackchecker-fabric-1.21.10-1.2.2.jar		Helps cache and avoid re-downloading the resource pack when it isn't changing.
+- viewdistancefix-fabric-1.21.10-1.0.2.jar		Allows the client view distance to exceed the server view distance without weird fog effects
+- voicechat-fabric-1.21.10-2.6.6.jar			Allows us to talk in voice chat! Also required for Audio Player to play custom sounds from discs, etc.
+
+APIs:							Various mods require these. CurseForge is aware of the dependencies, so just enable/disable the mods you want, not these.
+- architectury-18.0.6-fabric.jar			If they are required, they will toggle on. And if they aren't required, leaving them will have 0 game effect.
+- cloth-config-20.0.149-fabric.jar
+- fabric-api-0.138.3+1.21.10.jar
+- malilib-fabric-1.21.10-0.26.3.jar.disabled
+- modmenu-14.0.0.jar
+- modmenu-v16.0.0-1.21.9-1.21.10.jar
+- placeholder-api-2.8.1+1.21.10.jar
+
+Specific to Fresh Animations:
+- entity_model_features_1.21.9-fabric-3.0.5.jar.disabled
+- entity_texture_features-7.0.4-1.21.9-fabric.jar.disabled
+
+Performance:						These mods are included for performance reasons. You shouldn't need to disable them. If you do, you might
+- ferritecore-8.0.2-fabric.jar				see other mods get disabled as they rely on them, like Iris relying on Sodium, and many relying on Lithium.
+- lithium-fabric-0.20.1+mc1.21.10.jar
+- sodium-fabric-0.7.3+mc1.21.10.jar
+
+Also included in the CurseForge profile:
+
+- Status mod config file to disable a "reminder" message on server join
+- servers.dat file containing the MWC server connection details pre-populated
