@@ -10,7 +10,7 @@ SEASON TWO (current)
 
 MuWuCraft Season Two (MW2) begins on November 16, 2025. We are running Minecraft version 1.21.10 (using Fabric 0.17.3). The server is always compatible with a vanilla client.
 
-Modpack file: MW2-1.0.0.zip
+Modpack file: MW2-1.0.1.zip
 
 Import this .zip into CurseForge as a Minecraft profile to run a modded Fabric client. CurseForge allows you to add, remove, temporarily disable, update, and otherwise maintain these mods in between updates.
 
@@ -20,6 +20,7 @@ Utilities:
 - ArmorPoser-fabric-1.21.10-12.2.0.jar			GUI to pose armor stands
 - audioplayer-fabric-2.0.8+1.21.10.jar			Commands to upload audio files and associate them with discs, horns, etc.
 - BetterF3-16.0.3-Fabric-1.21.10.jar.disabled		Highly-configurable F3 screen
+- bobby-5.2.10+mc1.21.9.jar				Allow for incredibly large render distances with local caching
 - camerautils-fabric-1.21.10-1.1.2.jar.disabled		Cinematic camera modes
 - freecam-fabric-1.3.5+mc1.21.10.jar.disabled		Spectator view in survival mode
 - heywiki-fabric-1.8.4+1.21.10.jar.disabled		Easily query minecraft.wiki
@@ -33,6 +34,7 @@ Utilities:
 - worldedit-mod-7.3.17.jar.disabled			Incredibly powerful mod for editing Minecraft worlds. Can copy from survival and paste into a creative world.
 
 Visuals:
+- better-clouds-1.11.1-alpha+1.21.9-fabric.rev.e63efe2.jar	Better Clouds
 - continuity-3.0.1-beta.2+1.21.10.jar.disabled		Seamless glass
 - dark-loading-screen-1.6.17.jar			Minecraft loading screen isn't bright red, but dark gray
 - iris-fabric-1.9.6+mc1.21.9.jar			Adds shaders to Sodium rendering=
