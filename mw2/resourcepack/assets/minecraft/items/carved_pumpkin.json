@@ -7,14 +7,14 @@
         "when": "trophy_most_diamonds",
         "model": {
           "type": "model",
-          "model": "mw2:item/trophy_most_diamonds"
+          "model": "mw2:item/trophy/most_diamonds"
         }
       },
       {
         "when": "trophy_end_explosion",
         "model": {
           "type": "model",
-          "model": "mw2:item/trophy_end_explosion"
+          "model": "mw2:item/trophy/end_explosion"
         }
       }
     ],
