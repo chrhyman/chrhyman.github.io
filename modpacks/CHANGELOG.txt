@@ -1,146 +1,7 @@
 MuWuCraft Modpack Changelog
-===========================
-
-+------------------------------------------------+
-|  Version 1.0 -- Initial modpack configuration  |
-+------------------------------------------------+
-
-Provides these mods for MC 1.21 Fabric 0.16.2:
-* Armor Poser
-* BetterF3
-* Camera Utils
-* Chat Signing Hider
-* Cloth Config API
-* Content Creator Server Status ("Status Mod")
-* Fabric API (required)
-* Fadeless
-* Freecam
-* Lithium
-* Mod Menu
-* Reese's Sodium Options
-* Server Resourcepack Checker
-* Simple Voice Chat
-* Sodium
-* Sodium Extra
-* Text Placeholder API
-
-Provides config for:
-* Status mod
-  - disable reminder to set status
-
-
-+------------------------------------------+
-|  Version 1.1 -- Improve default options  |
-+------------------------------------------+
-
-Provides `servers.dat` containing MWC connection already in Multiplayer list.
-
-Provides `options.txt` which give a couple defaults:
-* GUI Scale is 2x instead of Auto
-* Brightness is 30%
-* Music is 0%
-* Subtitles ("captions" or "audio cues") are enabled
-* Narrator is disabled
-* Tutorial toast notifications are disabled
-
-
-+-------------------------------------+
-|  Version 1.2 -- Add resource packs  |
-+-------------------------------------+
-
-Provides over two dozen separate Vanilla Tweaks resource packs.
-A few are enabled by default:
-* Ping colors in tab menu
-* Pumpkin overlay is translucent
-* Fixes cloud rendering in view distance fog
-* An in-game brewing guide
-* Food gives a hunger preview
-* Fire is lower
-* Stars twinkle
-* Wither hearts are more visible
-* Sticky Pistons have their stickiness visible from the side
-
-Many more are provided and can be enabled in-game
-from the Options > Resource Packs menu.
-
-Adds these mods:
-* Dark Loading Screen
-* Hey Wiki
-* Architectury API (for Hey Wiki)
-
-
-+----------------------------------+
-|  Version 1.3 -- Bring in Bobby!  |
-+----------------------------------+
-
-Brings in Bobby, a mod that caches chunks on your client so you can
-experience a very large render distance, over the server (or client!) cap.
-
-Updates mods to latest MC 1.21.1-Fabric 0.16.2 compatible versions.
-
-Provides the Fresh Animations resource pack + mods required for it to work.
-
-Includes shaders and a particular build of Iris for Fabric that includes a
-fix for Spectator mode/Freecam. Iris is required for the shaders to work.
-The standard Iris version will also work, but the free cam won't render
-underground properly.
-
-Has FerriteCore, a memory performance optimization mod that works on the
-client and server environments.
-
-Adds these mods:
-* Bobby
-* Entity Texture Features [ETF] (for Fresh Animations)
-* Entity Model Features [EMF] (for Fresh Animations)
-* FerriteCore
-* Iris Shaders (build.5425)
-* Litematica (disabled by default)
-* MaLiLib (for Litematica)
-* More Overlays Updated
-* Server Resourcepack Checker
-* Shulker Box Tooltip
-* Shulker+
-
-Adds these resource packs:
-* Fresh Animations
-
-Adds these shaders:
-* Complementary Shaders - Reimagined
-* Complementary Shaders - Unbound
-
-+----------------------------------+
-|  Version 2.0 -- Pale Gardens!    |
-+----------------------------------+
-
-Updates server and client mods to 1.21.4 Fabric 0.16.9. Removes Shulkers+.
-
-
-
-+----------------------------------+
-|  Version 2.1 -- Spring Drop!     |
-+----------------------------------+
-
-Updates server and client mods to 1.21.5 Fabric 0.16.14.
-
-Adds Mouse Tweaks.
-Adds MaLiLib Port (previously a manual add via Modrinth), Litematica Port, and MiniHUD Port
-
-Resource packs are no longer included. Please see instructions at wugs.me/mwc for how to port these over yourself. Also includes steps for copying over settings.
-
-ETF and EMF are still included for Fresh Animations, even though it isn't included.
-
-+----------------------------------+
-|  Version 2.2 -- Happy Ghasts     |
-+----------------------------------+
-
-Updates server annd client mods to 1.21.7 Fabric 0.16.14.
-
-Fresh Animations is included again.
 
 =============================================
-END OF SEASON ONE
-
-BEGINNING OF SEASON TWO
+SEASON TWO (current)
 =============================================
 
 +-----------------------------+
@@ -204,3 +65,154 @@ Also included in the CurseForge profile:
 
 - Status mod config file to disable a "reminder" message on server join
 - servers.dat file containing the MWC server connection details pre-populated
+
+=============================================
+SEASON TWO (start)
+=============================================
+
+=============================================
+SEASON ONE (end)
+=============================================
+
+
++----------------------------------+
+|  Version 2.2 -- Happy Ghasts     |
++----------------------------------+
+
+Updates server annd client mods to 1.21.7 Fabric 0.16.14.
+
+Fresh Animations is included again.
+
+
++----------------------------------+
+|  Version 2.1 -- Spring Drop!     |
++----------------------------------+
+
+Updates server and client mods to 1.21.5 Fabric 0.16.14.
+
+Adds Mouse Tweaks.
+Adds MaLiLib Port (previously a manual add via Modrinth), Litematica Port, and MiniHUD Port
+
+Resource packs are no longer included. Please see instructions at wugs.me/mwc for how to port these over yourself. Also includes steps for copying over settings.
+
+ETF and EMF are still included for Fresh Animations, even though it isn't included.
+
+
++----------------------------------+
+|  Version 2.0 -- Pale Gardens!    |
++----------------------------------+
+
+Updates server and client mods to 1.21.4 Fabric 0.16.9. Removes Shulkers+.
+
+
++----------------------------------+
+|  Version 1.3 -- Bring in Bobby!  |
++----------------------------------+
+
+Brings in Bobby, a mod that caches chunks on your client so you can
+experience a very large render distance, over the server (or client!) cap.
+
+Updates mods to latest MC 1.21.1-Fabric 0.16.2 compatible versions.
+
+Provides the Fresh Animations resource pack + mods required for it to work.
+
+Includes shaders and a particular build of Iris for Fabric that includes a
+fix for Spectator mode/Freecam. Iris is required for the shaders to work.
+The standard Iris version will also work, but the free cam won't render
+underground properly.
+
+Has FerriteCore, a memory performance optimization mod that works on the
+client and server environments.
+
+Adds these mods:
+* Bobby
+* Entity Texture Features [ETF] (for Fresh Animations)
+* Entity Model Features [EMF] (for Fresh Animations)
+* FerriteCore
+* Iris Shaders (build.5425)
+* Litematica (disabled by default)
+* MaLiLib (for Litematica)
+* More Overlays Updated
+* Server Resourcepack Checker
+* Shulker Box Tooltip
+* Shulker+
+
+Adds these resource packs:
+* Fresh Animations
+
+Adds these shaders:
+* Complementary Shaders - Reimagined
+* Complementary Shaders - Unbound
+
+
++-------------------------------------+
+|  Version 1.2 -- Add resource packs  |
++-------------------------------------+
+
+Provides over two dozen separate Vanilla Tweaks resource packs.
+A few are enabled by default:
+* Ping colors in tab menu
+* Pumpkin overlay is translucent
+* Fixes cloud rendering in view distance fog
+* An in-game brewing guide
+* Food gives a hunger preview
+* Fire is lower
+* Stars twinkle
+* Wither hearts are more visible
+* Sticky Pistons have their stickiness visible from the side
+
+Many more are provided and can be enabled in-game
+from the Options > Resource Packs menu.
+
+Adds these mods:
+* Dark Loading Screen
+* Hey Wiki
+* Architectury API (for Hey Wiki)
+
+
++------------------------------------------+
+|  Version 1.1 -- Improve default options  |
++------------------------------------------+
+
+Provides `servers.dat` containing MWC connection already in Multiplayer list.
+
+Provides `options.txt` which give a couple defaults:
+* GUI Scale is 2x instead of Auto
+* Brightness is 30%
+* Music is 0%
+* Subtitles ("captions" or "audio cues") are enabled
+* Narrator is disabled
+* Tutorial toast notifications are disabled
+
+
++------------------------------------------------+
+|  Version 1.0 -- Initial modpack configuration  |
++------------------------------------------------+
+
+Provides these mods for MC 1.21 Fabric 0.16.2:
+* Armor Poser
+* BetterF3
+* Camera Utils
+* Chat Signing Hider
+* Cloth Config API
+* Content Creator Server Status ("Status Mod")
+* Fabric API (required)
+* Fadeless
+* Freecam
+* Lithium
+* Mod Menu
+* Reese's Sodium Options
+* Server Resourcepack Checker
+* Simple Voice Chat
+* Sodium
+* Sodium Extra
+* Text Placeholder API
+
+Provides config for:
+* Status mod
+  - disable reminder to set status
+
+
+=============================================
+SEASON ONE (start)
+=============================================
