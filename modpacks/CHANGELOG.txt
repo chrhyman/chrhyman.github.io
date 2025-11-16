@@ -53,6 +53,7 @@ APIs:							Various mods require these. CurseForge is aware of the dependencies,
 - modmenu-14.0.0.jar
 - modmenu-v16.0.0-1.21.9-1.21.10.jar
 - placeholder-api-2.8.1+1.21.10.jar
+- yet_another_config_lib_v3-3.8.0+1.21.9-fabric.jar
 
 Specific to Fresh Animations:
 - entity_model_features_1.21.9-fabric-3.0.5.jar.disabled
