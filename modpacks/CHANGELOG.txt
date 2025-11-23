@@ -5,6 +5,22 @@ SEASON TWO (current)
 =============================================
 
 +-----------------------------+
+|  Update 2 -- Small updates  |
++-----------------------------+
+
+Modpack file: MW2-1.0.3.zip
+
+Added:
+- chat_heads-1.1.6-fabric-1.21.9.jar      Display player heads in chat
+- locator-heads-1.5.1.jar                 Display player heads on the locator bar (instead of colored dots)
+- horsestatsmod-fabric-3.0.0-MC1.21.9+.jar      Provides stats for horses (health, jump, speed) and llamas (same + storage slots)
+- FreshAnimations_v1.10.2.zip             Resource pack (requires ETF and EMF to be enabled)
+
+EMF and ETF are enabled by default again, because Fresh Animations has been added back to the pack.
+Note that there are weird visuals with Happy Ghasts in this version. Check in CurseForge for updates!
+
+
++-----------------------------+
 |  Update 1 -- Server start!  |
 +-----------------------------+
 
