@@ -4,6 +4,24 @@ MuWuCraft Modpack Changelog
 SEASON TWO (current)
 =============================================
 
++--------------------------------+
+|  Update 3 -- Mounts of Mayhem  |
++--------------------------------+
+
+Modpack file: MW2-1.1.1.zip
+
+Config:
+- Locator Heads config provided which enables the compass
+
+Added:
+- bigsignwriter-1.6.3+1.21.11-fabric.jar      Easily write large letters with ASCII-based fonts
+- bundles-beyond-1.6.0+1.21.11+fabric.jar     See all contents of your bundles
+
+Server additions:
+- Age Lock datapack allows you to freeze a mob's age with a nametag
+- Storm Channeling datapack allows you to trigger a thunder storm by throwing a Channeling Trident at the sky at build height
+
+
 +-----------------------------+
 |  Update 2 -- Small updates  |
 +-----------------------------+
