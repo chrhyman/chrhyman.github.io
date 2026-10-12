@@ -1,6 +1,5 @@
 {
     "values": [
-        "wandering_trades:load",
-        "wandering_trades:tick"
+        "wandering_trades:load"
     ]
 }

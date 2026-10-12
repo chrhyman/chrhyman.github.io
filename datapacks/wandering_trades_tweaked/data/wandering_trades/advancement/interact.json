@@ -1,0 +1,44 @@
+{
+    "criteria": {
+        "interact": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "terms": [
+                        {
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:entity_type": "minecraft:wandering_trader"
+                            },
+                            "type": "minecraft:entity_properties"
+                        },
+                        {
+                            "term": {
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:nbt": "{Tags:[\"wt.processed\"]}"
+                                },
+                                "type": "minecraft:entity_properties"
+                            },
+                            "type": "minecraft:inverted"
+                        },
+                        {
+                            "term": {
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:nbt": "{Tags:[\"has_new_trades\"]}"
+                                },
+                                "type": "minecraft:entity_properties"
+                            },
+                            "type": "minecraft:inverted"
+                        }
+                    ],
+                    "type": "minecraft:all_of"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "wandering_trades:interact"
+    }
+}
