@@ -1,8 +1,130 @@
 MuWuCraft Modpack Changelog
 
 =============================================
-SEASON TWO (current)
+SEASON THREE (current)
 =============================================
+
+
++-----------------------------+
+|  Update 1 -- Server start!  |
++-----------------------------+
+
+MuWuCraft Season Three (MW3) begins on October 13, 2026. We are running Minecraft version 26.3 (using Fabric 0.19.5). The server is always compatible with a vanilla client.
+
+Modpack file: MuWuCraft-S3-1.0.0.mrpack
+
+With Season 3, we are moving away from CurseForge. The modpack is now a Modrinth modpack file. Modrinth has better support for Minecraft specifically. The server modpack is also managed in Modrinth, but users do not need to download it.
+
+Client Modpack includes:
+- Entity Model Features
+- Entity Texture Features
+- Architectury API
+- Armor Poser
+- AudioPlayer
+- BetterF3
+- Big Sign Writer 
+- Bundles Beyond
+- Camera Utils
+- Chat Heads
+- Chat Signing Hider
+- Cloth Config API
+- Continuity
+- Dark Loading Screen
+- Distant Horizons
+- Entity Culling
+- Fabric API
+- FerriteCore
+- Forge Config API Port
+- Freecam
+- Hey Wiki
+- Horse Stats Vanilla
+- ImmediatelyFast
+- Iris Shaders
+- ItemSwapper
+- Litematica
+- Lithium
+- Locator Heads
+- MaLiLib
+- MiniHUD
+- Mod Menu
+- More Mouse Tweaks
+- Mouse Tweaks
+- Not Enough Animations
+- Peek 
+- Reese's Sodium Options
+- Server Resourcepack Checker
+- Shulker Box Tooltip
+- Simple Voice Chat
+- Sodium
+- Sodium Extra
+- Status
+- Text Placeholder API
+- WorldEdit
+- YetAnotherConfigLib (YACL)
+- Fresh Animations (resource pack)
+- Complementary Shaders - Reimagined
+- Complementary Shaders - Unbound
+- BSL Shaders
+- MakeUp - Ultra Fast (Shaders)
+- Photon Shaders
+
+For documentation purposes, these are the contents of the server modpack. Again, you do not need to install these mods or datapacks in your client instance.
+
+Server Modpack includes these mods:
+- Armor Hider
+- Armor Poser
+- AudioPlayer
+- Audioplayer Roleplay
+- Better Multiplayer Sleep
+- Cloth Config API
+- Datapack Injector
+- Distant Horizons
+- Eunomia
+- Fabric API
+- FerriteCore
+- Forge Config API Port
+- ItemSwapper
+- Lithium
+- Phantom Spawning
+- Puzzles Lib
+- Runtime Hash Updater
+- Servux
+- Shulker Box Tooltip
+- Simple Voice Chat
+- Simple Voice Chat Enhanced Groups
+- Status
+- Unlock All Recipes
+- Unplugged AFK
+- View Distance Fix
+
+Server Modpack includes these datapacks (*indicates Vanilla Tweaks datapack):
+- AFK Display*
+- All Mob Heads
+- Anti-Enderman Grief*
+- Armor Statues*
+- Coordinates HUD*
+- Double Shulker Shells*
+- Durability Ping*
+- ModelApplier
+- Nether Portal Coords*
+- Painting Picker*
+- Player Head Drops*
+- Silence Mobs*
+- Storm Channeling*
+- Track Raw Statistics*
+- Track Statistics*
+- Universal Dyeing*
+- Wandering Trades* (tweaked! we edit the datapack to only offer 4..8 trades instead of 15..21)
+
+
+=============================================
+SEASON THREE (start)
+=============================================
+
+=============================================
+SEASON TWO (end)
+=============================================
+
 
 +--------------------------------+
 |  Update 3 -- Mounts of Mayhem  |
