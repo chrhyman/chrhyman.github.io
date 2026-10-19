@@ -5,6 +5,23 @@ SEASON THREE (current)
 =============================================
 
 
++------------------------------------------+
+|  Server Update 1.0.2 -- Logging QoL Mod  |
++------------------------------------------+
+
+Added this mod to the server:
+- Standing On Air (fixes MC-311727, which is resolved by Mojang in 26.4 - this bug creates noisy logs but has no gameplay impact)
+
+
++------------------------------------------+
+|  Server Update 1.0.1 -- Added datapacks  |
++------------------------------------------+
+
+Added these datapacks to the server:
+- Husks Drop Sand*
+- Wood Stripper*
+
+
 +-----------------------------+
 |  Update 1 -- Server start!  |
 +-----------------------------+
